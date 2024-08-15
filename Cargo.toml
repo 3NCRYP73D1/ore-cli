@@ -27,13 +27,15 @@ chrono = "0.4.38"
 clap = { version = "4.4.12", features = ["derive"] }
 colored = "2.0"
 core_affinity = "0.8.1" 
-drillx = "2.0.0"
+drillx = { git = "https://github.com/3NCRYP73D1/drillx.git", branch = "master" }
 futures = "0.3.30"
 indicatif = "0.17.8"
 num_cpus = "1.16.0"
 ore-api = "2.1.0"
 ore-utils = "2.1.0"
 rand = "0.8.4"
+rayon = "1.5.3"  # or the latest version available
+packed_simd = "0.3.4"  # or the latest compatible version
 reqwest = { version = "0.12", features = ["json"] }
 solana-cli-config = "^1.18"
 solana-client = "^1.18"
